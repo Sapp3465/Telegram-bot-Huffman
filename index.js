@@ -33,7 +33,7 @@ function decode(str, dictionary) {
 }
 
 const TelegramBot = require('node-telegram-bot-api');
-const token = '785256679:AAE5xule7Rx0lzjlIoqfIVTtER4yPKIkNzI';
+const token = 'here_is_my_token';
 const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
